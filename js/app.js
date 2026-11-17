@@ -164,7 +164,9 @@ const ejecutarBusqueda = async (nombre, estado) => {
     );
 
     if (!datos) {
-      mostrarMensaje("Sin resultados");
+      mostrarMensaje(
+        "No se encontraron personajes con esos filtros."
+      );
       return;
     }
 
