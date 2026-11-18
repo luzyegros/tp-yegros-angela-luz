@@ -8,7 +8,7 @@ Aplicación web desarrollada para explorar personajes de la serie Rick and Morty
 ## Sitios publicados
 
 - GitHub Pages: https://luzyegros.github.io/tp-yegros-angela-luz/
-- Vercel: pendiente de despliegue
+- Vercel: https://tp-yegros-angela-luz.vercel.app/
 
 ## Captura
 
@@ -51,3 +51,27 @@ tp-yegros-angela-luz/
 │   └── app.js
 └── img/
     └── captura.png
+```
+
+- `index.html`: estructura principal de la aplicación.
+- `css/estilos.css`: estilos visuales y diseño responsive.
+- `js/app.js`: lógica de la aplicación, consumo de la API y manejo de búsquedas.
+- `img/captura.png`: captura de la aplicación utilizada en este README.
+- `.gitignore`: archivos y directorios excluidos del control de versiones.
+
+## Cómo ejecutarlo localmente
+
+1. Clonar el repositorio de GitHub.
+2. Abrir la carpeta `tp-yegros-angela-luz` en Visual Studio Code.
+3. Abrir el archivo `index.html` directamente en el navegador o utilizar la extensión Live Server.
+4. Realizar una búsqueda por nombre o seleccionar un estado para consultar los personajes.
+
+La aplicación requiere conexión a Internet para consultar la API de Rick and Morty.
+
+## Despliegue
+
+El proyecto utiliza la rama `main` como rama principal.
+
+La aplicación está publicada mediante GitHub Pages y Vercel. Los cambios integrados en `main` se envían al repositorio remoto mediante Git y GitHub, permitiendo actualizar automáticamente las versiones publicadas.
+
+Para publicar una nueva versión se realizan los cambios correspondientes, se crea un commit descriptivo y se ejecuta `git push`. GitHub Pages y Vercel actualizan posteriormente la aplicación publicada.
